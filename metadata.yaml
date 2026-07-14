@@ -1,5 +1,5 @@
 homepage: "https://adverzia.it"
 documentation: "https://adverzia.it/docs/tracker/gtm-template"
 versions:
-  - sha: a9812bf96d4aaa54deb3b4a342b44195e4d40b83
+  - sha: fbcb8c876f74a7b262b588d7178a5c17fb877861
     changeNotes: Initial version — Page View, Conversion, Customer and Custom Event track types.
