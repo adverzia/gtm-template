@@ -54,24 +54,13 @@ One tag template, four modes selected via the **Track Type** field:
 4. Export back to `template.tpl` (⋮ → Export) after each change so the repo
    stays the source of truth.
 
-## Before submitting to the gallery
+## Submission
 
-- [x] `brand.thumbnail` in `___INFO___` — base64-encoded from
-      `website/public/favicon/favicon-96x96.png` (96×96, meets the gallery's
-      square/48–96px/50KB icon spec). Swap for a dedicated icon if the
-      favicon isn't the intended gallery mark.
-- [ ] Confirm `___WEB_PERMISSIONS___` matches what the Template Editor's
-      Permissions tab generates (hand-authored here from the public schema —
-      not yet round-tripped through the Editor).
-- [ ] Run all `___TESTS___` scenarios green in the Editor.
-- [ ] Smoke test all four Track Types against a real campaign in GTM Preview
-      mode, confirm `Click` / `Conversion` / `Commission` rows land correctly.
-- [ ] Push this repo to its own public GitHub repo (root-level `template.tpl`,
-      `metadata.yaml`, `LICENSE`, one `template.tpl` per repo, everything on
-      `main`, Issues enabled — the gallery links directly to them).
-- [ ] Set `versions[0].sha` in `metadata.yaml` to the commit being submitted.
-- [ ] Submit via tagmanager.google.com/gallery → ⋮ → **Submit Template** →
-      paste the repo URL.
-
+This repo is structured for the Community Template Gallery as-is: root-level
+`template.tpl` / `metadata.yaml` / `LICENSE`, a single template per repo, on
+`main`, with Issues enabled (the gallery links directly to them for bug
+reports). To publish a new version, update `versions[0].sha` in
+`metadata.yaml` to the commit being submitted, then submit via
+tagmanager.google.com/gallery → ⋮ → **Submit Template** → paste the repo URL.
 See [Submit a template to the Community Template Gallery](https://developers.google.com/tag-platform/tag-manager/templates/gallery)
 for the full process.
