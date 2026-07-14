@@ -64,7 +64,7 @@ ___TEMPLATE_PARAMETERS___
     "name": "campaignId",
     "displayName": "Campaign / Referral Program ID",
     "simpleValueType": true,
-    "help": "The Adverzia campaign ID, e.g. ID-XXXXXXXX. Found in Campaign → Integration tab in the Adverzia dashboard.",
+    "help": "The Adverzia campaign ID, a number (e.g. 17). Found on the Campaign → Overview tab in the Adverzia dashboard — click the Campaign ID stat card to copy it.",
     "valueValidators": [
       {
         "type": "NON_EMPTY"
